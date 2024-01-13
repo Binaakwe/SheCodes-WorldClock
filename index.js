@@ -19,6 +19,17 @@ let parisTime = moment().tz("Europe/Paris");
 
 parisDateElement.innerHTML = moment().format("MMMM Do YYYY");
 parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
+}
+
+// Ottawa
+let torontoElement = document.querySelector("#toronto");
+if (torontoElement) {
+let torontoDateElement = torontoElement.querySelector(".date");
+let torontoTimeElement = torontoElement.querySelector(".time");
+let torontoTime = moment().tz("America/Toronto");
+
+torontoDateElement.innerHTML = moment().format("MMMM Do YYYY");
+torontoTimeElement.innerHTML = torontoTime.format("h:mm:ss [<small>]A[</small>]");
 }}
 
 function updateCity(event) {

@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    color: rgb(3, 30, 48);
+    color: rgb(7, 66, 105);
     text-align: center;
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -25,6 +25,7 @@ select {
     border-radius: 4px;
     border: 2px solid rgba(162, 212, 240);
     padding: 10px;
+    color: rgba(7, 66, 105, 0.7);
 }
 
 .city {
@@ -32,6 +33,7 @@ select {
     justify-content: space-between;
     margin: 10px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    color:rgba(3, 77, 120, 0.775);
 }
 
 h2 {
@@ -52,6 +54,12 @@ h2 {
     vertical-align:middle;
     line-height: 36px;
 }
+
+a {
+    color: rgb(7, 66, 105);
+    font-size: 15px;
+}
+
 
 footer {
     text-align: center;
